@@ -427,6 +427,16 @@
                 </ul>
             </div>
         </section>
+                            
+        <section class="footer-section">
+            <div class="footer-section-content text-center">
+                <a href="" style="text-decoration: none;color: black">
+                    <h5>Made By Kirankumar</h5>
+                </a>                  
+            </div>
+        </section>
+        <a id="back-to-top" href="#" style="border-radius: 100%" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>              
+                           
     </div>
     <!-- Bootstrap core JS-->
     <script src="js/jquery.min.js"></script>
@@ -442,7 +452,24 @@
             $('[data-toggle="popover"]').popover({
                 trigger: 'hover'
             });
-        });            
+        });  
+                            
+                            
+        // Scroll Back to Top
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                    } else {
+                    $('#back-to-top').fadeOut();
+                            }
+        });
+        // Scroll Body to 0px on Click
+        $('#back-to-top').click(function () {
+        $('body,html').animate({scrollTop: 0}, 400);
+        return false;
+        });
+        });
     </script>
 </body>
 
