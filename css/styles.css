@@ -58,6 +58,14 @@
   src: url(/font/MoonBold.ttf);
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  border-radius: 50%;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
