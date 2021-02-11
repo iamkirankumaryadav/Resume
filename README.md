@@ -1,3 +1,3 @@
 # Resume
 
-[Kirankumar Yadav](https://kirankumar7296.github.io/Resume/)
+Kirankumar Yadav | [My Resume](https://kirankumar7296.github.io/Resume/)
